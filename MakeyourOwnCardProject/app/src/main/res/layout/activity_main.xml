@@ -1,0 +1,45 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/birthday"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/birthday" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:background="#2aaeca"
+        android:fontFamily="sans-serif-thin"
+        android:padding="15dp"
+        android:text="Happy Birthday Seba"
+        android:textColor="#FFFFFF"
+        android:textSize="38sp" />
+
+    <TextView
+        android:background="#2aaeca"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:fontFamily="sans-serif-thin"
+        android:padding="8dp"
+        android:text="From, Carito!"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+
+/>
+
+
+</RelativeLayout>
