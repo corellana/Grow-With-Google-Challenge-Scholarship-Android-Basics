@@ -1,0 +1,89 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textColorLink="#5DBCD2">
+
+    <ImageView
+        android:id="@+id/udacity_logo"
+        android:src="@drawable/udacity_logo"
+        android:contentDescription="@string/udacity_logo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="250dp"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/udacity_girl"
+        android:src="@drawable/udacity_girl"
+        android:contentDescription="@string/udacity_girl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/udacity_name"
+        android:text="@string/udacity_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:textColor="#212121"
+        android:textSize="34sp"
+        android:background="#FFFFFF"
+        android:paddingTop="20dp"
+        android:paddingLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/udacity_address"
+        android:text="@string/udacity_address"
+        android:autoLink="map"
+        android:textColorLink="#5DBCD2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:textColor="#212121"
+        android:textSize="14sp"
+        android:background="#FFFFFF"
+        android:paddingTop="10dp"
+        android:paddingLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/udacity_phone"
+        android:text="@string/udacity_phone"
+        android:autoLink="phone"
+        android:textColorLink="#5DBCD2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:textColor="#212121"
+        android:textSize="14sp"
+        android:background="#FFFFFF"
+        android:paddingTop="10dp"
+        android:paddingLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/udacity_url"
+        android:text="@string/udacity_url"
+        android:autoLink="web"
+        android:textColorLink="#5DBCD2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:textColor="#212121"
+        android:textSize="14sp"
+        android:background="#FFFFFF"
+        android:paddingTop="10dp"
+        android:paddingLeft="30dp"
+        android:paddingBottom="20dp"/>
+
+
+
+
+
+
+</LinearLayout>
