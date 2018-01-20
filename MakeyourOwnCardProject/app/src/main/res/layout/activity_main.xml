@@ -6,40 +6,39 @@
     tools:context=".MainActivity" >
 
     <ImageView
-        android:id="@+id/birthday"
+        android:contentDescription="@string/ballons_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:src="@drawable/birthday" />
 
     <TextView
+        android:id="@+id/textView_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="37dp"
-        android:background="#2aaeca"
+        android:layout_marginTop="@dimen/default_margin_top"
+        android:padding="@dimen/default_padding"
+        android:background="@color/light_blue"
         android:fontFamily="sans-serif-thin"
-        android:padding="15dp"
-        android:text="Happy Birthday Seba"
-        android:textColor="#FFFFFF"
-        android:textSize="38sp" />
+        android:text="@string/happy_birthday_seba"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_1" />
 
     <TextView
-        android:background="#2aaeca"
-        android:id="@+id/textView"
+        android:id="@+id/textView_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="37dp"
+        android:layout_marginBottom="@dimen/default_margin_botton"
+        android:padding="@dimen/default_padding"
+        android:background="@color/light_blue"
         android:fontFamily="sans-serif-thin"
-        android:padding="8dp"
-        android:text="From, Carito!"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"
-
-/>
+        android:text="@string/from_carito"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_2" />
 
 
 </RelativeLayout>

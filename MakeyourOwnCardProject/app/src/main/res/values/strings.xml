@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Make your Own Card Project</string>
+
+    <!--TextView-->
+    <string name="happy_birthday_seba">Happy Birthday Seba</string>
+    <string name="from_carito">From Carito</string>
+
+    <!--ImageView-->
+    <string name="ballons_image">image of a girl holding a bunch of ballons </string>
+
 </resources>
