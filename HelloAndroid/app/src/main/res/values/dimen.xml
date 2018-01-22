@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--FontSizes-->
+    <dimen name="font_size_regular">34sp</dimen>
+    <dimen name="font_size_medium">14sp</dimen>
+
+    <!--LayoutDimensions-->
+    <dimen name="padding_left">30dp</dimen>
+    <dimen name="padding_top_inicial">20dp</dimen>
+    <dimen name="padding_top_regular">10dp</dimen>
+    <dimen name="padding_botton">20dp</dimen>
+
+
+</resources>

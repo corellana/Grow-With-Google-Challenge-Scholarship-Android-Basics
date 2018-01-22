@@ -1,12 +1,16 @@
 <resources>
     <string name="app_name">HelloAndroid</string>
-    <string name="udacity_logo">Logo</string>
-    <string name="udacity_girl">UdacityGirl</string>
 
+    <!--ImageView-->
+    <string name="udacity_logo">Logo Udacity</string>
+    <string name="udacity_girl">woman studying in a computer</string>
+
+    <!--TextView-->
     <string name="udacity_name">Udacity</string>
     <string name="udacity_address">2465 Latham St. Montain View, CA 94043</string>
     <string name="udacity_phone">650-555-5555</string>
-    <string name="udacity_url">Udacity_url</string>
+    <string name="udacity_url">www.udacity.com</string>
+
 </resources>
 
 
