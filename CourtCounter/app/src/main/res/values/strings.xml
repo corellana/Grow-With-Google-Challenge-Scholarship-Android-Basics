@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Court Counter</string>
+
+    <!--Team Name Views-->
+    <string name="TeamA">Team A</string>
+    <string name="TeamB">Team B</string>
+
+    <!--Score Teams Views-->
+    <string name="threePoints">+ 3 Points</string>
+    <string name="twoPoints">+ 2 Points</string>
+    <string name="onePoint">FREE THROW</string>
+
+    <!--Reset View-->
+    <string name="reset">Reset</string>
+
 </resources>
