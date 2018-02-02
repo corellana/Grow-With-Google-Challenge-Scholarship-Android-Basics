@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!--ImageView Logo-->
+    <dimen name="layoutHeight_logo">65dp</dimen>
+    <dimen name="layoutMargin_logo">15dp</dimen>
 
     <!--Teams LinearLayouts-->
     <dimen name="layoutWidht_LL_Teams">0dp</dimen>
 
 
-    <dimen name="fontSizeTittles">14sp</dimen>
-    <dimen name="fontSizeScore">56sp</dimen>
+    <dimen name="fontSizeTittles">24sp</dimen>
+    <dimen name="fontSizeScore">64sp</dimen>
 
     <!--Team Name Views-->
     <dimen name="paddingTittles">16dp</dimen>
 
     <!--Score Team Views-->
-    <dimen name="marginBottom">24dp</dimen>
+    <dimen name="marginBottom">20dp</dimen>
 
     <!--Buttons Point Views-->
+    <dimen name="fontSize_scoreButton">12sp</dimen>
+
+
+    <dimen name="marginTop_buttom">15dp</dimen>
     <dimen name="marginRight">24dp</dimen>
     <dimen name="marginLeft">24dp</dimen>
     <dimen name="marginBottom_points">8dp</dimen>
@@ -26,5 +33,7 @@
     <!--Divider View-->
     <dimen name="layoutWidht_dividerView">2dp</dimen>
     <dimen name="marginTop_Divider">16dp</dimen>
+
+
 
 </resources>

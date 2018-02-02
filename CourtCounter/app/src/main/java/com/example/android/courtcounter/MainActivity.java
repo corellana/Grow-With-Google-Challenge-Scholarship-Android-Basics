@@ -28,27 +28,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
         /**
-         * This method is called when the +3 button is clicked Team A.
+         * This method is called when the +1 button is clicked Team A.
          */
 
-    public void AddThreePointsTeamA(View view) {
-        scoreTeamA = scoreTeamA + 3;
-        displayForTeamA(scoreTeamA);
-
-    }
-
-    /**
-     * This method is called when the +2 button is clicked Team A.
-     */
-    public void AddTwoPointsTeamA(View view) {
-        scoreTeamA = scoreTeamA + 2;
-        displayForTeamA(scoreTeamA);
-
-    }
-
-    /**
-     * This method is called when the +1 is clicked Team A.
-     */
     public void AddOnePointsTeamA(View view) {
         scoreTeamA = scoreTeamA + 1;
         displayForTeamA(scoreTeamA);
@@ -56,25 +38,34 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * This method is called when the +3 button is clicked Team B.
+     * This method is called when the +2 button is clicked Team A for tile.
      */
-    public void AddThreePointsTeamB(View view) {
-        scoreTeamB = scoreTeamB + 3;
-        displayForTeamB(scoreTeamB);
+    public void AddTwoPointsTeamA_tile(View view) {
+        scoreTeamA = scoreTeamA + 2;
+        displayForTeamA(scoreTeamA);
 
     }
 
     /**
-     * This method is called when the +2 button is clicked Team B.
+     * This method is called when the +2 button is clicked Team A for pennant.
      */
-    public void AddTwoPointsTeamB(View view) {
-        scoreTeamB = scoreTeamB + 2;
-        displayForTeamB(scoreTeamB);
+    public void AddTwoPointsTeamA_pennant(View view) {
+        scoreTeamA = scoreTeamA + 2;
+        displayForTeamA(scoreTeamA);
 
     }
 
     /**
-     * This method is called when the +1 is clicked Team B.
+     * This method is called when the +9 is clicked Team A.
+     */
+    public void AddNinePointsTeamA(View view) {
+        scoreTeamA = scoreTeamA + 9;
+        displayForTeamA(scoreTeamA);
+
+    }
+
+    /**
+     * This method is called when the +1 button is clicked Team B.
      */
     public void AddOnePointsTeamB(View view) {
         scoreTeamB = scoreTeamB + 1;
@@ -82,6 +73,32 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * This method is called when the +2 button is clicked Team B for tile.
+     */
+    public void AddTwoPointsTeamB_tile(View view) {
+        scoreTeamB = scoreTeamB + 2;
+        displayForTeamB(scoreTeamB);
+
+    }
+
+    /**
+     * This method is called when the +1 is clicked Team B for pennant.
+     */
+    public void AddTwoPointsTeamB_pennant(View view) {
+        scoreTeamB = scoreTeamB + 2;
+        displayForTeamB(scoreTeamB);
+
+    }
+
+    /**
+     * This method is called when the +9 is clicked Team B.
+     */
+    public void AddNinePointsTeamB(View view) {
+        scoreTeamB = scoreTeamB + 9;
+        displayForTeamB(scoreTeamB);
+
+    }
 
     /**
      * Displays the given score for Team A.

@@ -3,9 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/layoutHeight_logo"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:contentDescription="@string/carcassonne_logo"
+        android:src="@drawable/carcassonne_logo" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
         android:layout_weight="1"
         android:orientation="horizontal"
         tools:context=".MainActivity">
@@ -17,11 +27,10 @@
             android:orientation="vertical"
             tools:context=".MainActivity">
 
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="@font/roboto_light"
                 android:gravity="center"
                 android:padding="@dimen/paddingTittles"
                 android:text="@string/TeamA"
@@ -33,18 +42,36 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/marginBottom"
+                android:fontFamily="@font/roboto_light"
                 android:gravity="center"
                 android:textColor="@color/colorScore"
                 android:textSize="@dimen/fontSizeScore" />
 
-            <Button
-                android:layout_width="match_parent"
+            <!--Points ROAD-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/marginBottom_points"
-                android:layout_marginLeft="@dimen/marginLeft"
-                android:layout_marginRight="@dimen/marginRight"
-                android:onClick="AddThreePointsTeamA"
-                android:text="@string/threePoints" />
+                android:orientation="horizontal"
+                tools:context=".MainActivity">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/road" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/name_onePoint_road"
+                    android:textSize="21sp" />
+
+            </LinearLayout>
 
             <Button
                 android:layout_width="match_parent"
@@ -52,29 +79,110 @@
                 android:layout_marginBottom="@dimen/marginBottom_points"
                 android:layout_marginLeft="@dimen/marginLeft"
                 android:layout_marginRight="@dimen/marginRight"
-                android:onClick="AddTwoPointsTeamA"
-                android:text="@string/twoPoints" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/marginBottom_points"
-                android:layout_marginLeft="@dimen/marginLeft"
-                android:layout_marginRight="@dimen/marginRight"
+                android:layout_weight="1"
                 android:onClick="AddOnePointsTeamA"
-                android:text="@string/onePoint" />
+                android:text="@string/onePoint_road"
+                android:textColor="@color/colorButtonText"
+                android:textSize="@dimen/fontSize_scoreButton" />
 
+            <!-- Puntos City-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop_buttom"
+                android:orientation="horizontal"
+                tools:context=".MainActivity">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/city" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/name_twoPoints_city"
+                    android:textSize="21sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginBottom_points"
+                android:layout_marginLeft="@dimen/marginLeft"
+                android:layout_marginRight="@dimen/marginRight"
+                android:onClick="AddTwoPointsTeamA_tile"
+                android:text="@string/twoPoints_tile"
+                android:textColor="@color/colorButtonText"
+                android:textSize="@dimen/fontSize_scoreButton" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginBottom_points"
+                android:layout_marginLeft="@dimen/marginLeft"
+                android:layout_marginRight="@dimen/marginRight"
+                android:onClick="AddTwoPointsTeamA_pennant"
+                android:text="@string/twoPoints_pennant"
+                android:textColor="@color/colorButtonText"
+                android:textSize="@dimen/fontSize_scoreButton" />
+
+
+            <!--Puntos Cloister-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop_buttom"
+                android:orientation="horizontal"
+                tools:context=".MainActivity">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/cloister" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/name_ninePoints_cloister"
+                    android:textSize="21sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginBottom_points"
+                android:layout_marginLeft="@dimen/marginLeft"
+                android:layout_marginRight="@dimen/marginRight"
+                android:layout_weight="1"
+                android:onClick="AddNinePointsTeamA"
+                android:text="@string/ninePoint_cloister"
+                android:textColor="@color/colorButtonText"
+                android:textSize="@dimen/fontSize_scoreButton" />
 
         </LinearLayout>
-
 
         <View
             android:layout_width="@dimen/layoutWidht_dividerView"
             android:layout_height="match_parent"
-            android:background="@android:color/darker_gray"
             android:layout_marginTop="@dimen/marginTop_Divider"
-            />
+            android:background="@android:color/darker_gray" />
 
+<!--Player B-->
 
         <LinearLayout
             android:layout_width="@dimen/layoutWidht_LL_Teams"
@@ -87,7 +195,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="@font/roboto_light"
                 android:gravity="center"
                 android:padding="@dimen/paddingTittles"
                 android:text="@string/TeamB"
@@ -99,18 +207,36 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/marginBottom"
+                android:fontFamily="@font/roboto_light"
                 android:gravity="center"
                 android:textColor="@color/colorScore"
                 android:textSize="@dimen/fontSizeScore" />
 
-            <Button
-                android:layout_width="match_parent"
+            <!--Points ROAD-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/marginBottom_points"
-                android:layout_marginLeft="@dimen/marginLeft"
-                android:layout_marginRight="@dimen/marginRight"
-                android:onClick="AddThreePointsTeamB"
-                android:text="@string/threePoints" />
+                android:orientation="horizontal"
+                tools:context=".MainActivity">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/road" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/name_onePoint_road"
+                    android:textSize="21sp" />
+
+            </LinearLayout>
 
             <Button
                 android:layout_width="match_parent"
@@ -118,17 +244,100 @@
                 android:layout_marginBottom="@dimen/marginBottom_points"
                 android:layout_marginLeft="@dimen/marginLeft"
                 android:layout_marginRight="@dimen/marginRight"
-                android:onClick="AddTwoPointsTeamB"
-                android:text="@string/twoPoints" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/marginBottom_points"
-                android:layout_marginLeft="@dimen/marginLeft"
-                android:layout_marginRight="@dimen/marginRight"
+                android:layout_weight="1"
                 android:onClick="AddOnePointsTeamB"
-                android:text="@string/onePoint" />
+                android:text="@string/onePoint_road"
+                android:textColor="@color/colorButtonText"
+                android:textSize="@dimen/fontSize_scoreButton" />
+
+            <!-- Puntos City-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop_buttom"
+                android:orientation="horizontal"
+                tools:context=".MainActivity">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/city" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/name_twoPoints_city"
+                    android:textSize="21sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginBottom_points"
+                android:layout_marginLeft="@dimen/marginLeft"
+                android:layout_marginRight="@dimen/marginRight"
+                android:onClick="AddTwoPointsTeamB_tile"
+                android:text="@string/twoPoints_tile"
+                android:textColor="@color/colorButtonText"
+                android:textSize="@dimen/fontSize_scoreButton" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginBottom_points"
+                android:layout_marginLeft="@dimen/marginLeft"
+                android:layout_marginRight="@dimen/marginRight"
+                android:onClick="AddTwoPointsTeamB_pennant"
+                android:text="@string/twoPoints_pennant"
+                android:textColor="@color/colorButtonText"
+                android:textSize="@dimen/fontSize_scoreButton" />
+
+
+            <!--Puntos Cloister-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop_buttom"
+                android:orientation="horizontal"
+                tools:context=".MainActivity">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/cloister" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/name_ninePoints_cloister"
+                    android:textSize="21sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginBottom_points"
+                android:layout_marginLeft="@dimen/marginLeft"
+                android:layout_marginRight="@dimen/marginRight"
+                android:layout_weight="1"
+                android:onClick="AddNinePointsTeamB"
+                android:text="@string/ninePoint_cloister"
+                android:textColor="@color/colorButtonText"
+                android:textSize="@dimen/fontSize_scoreButton" />
 
         </LinearLayout>
 
@@ -144,6 +353,7 @@
         android:layout_gravity="bottom"
         android:layout_marginBottom="@dimen/marginBotton_reset"
         android:onClick="resetScore"
-        android:text="@string/reset" />
+        android:text="@string/reset"
+        android:textColor="@color/colorButtonText" />
 
 </RelativeLayout>
