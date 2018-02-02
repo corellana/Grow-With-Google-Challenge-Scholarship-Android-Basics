@@ -17,6 +17,7 @@
         <item name="colorPrimary">#1B7BBA</item>
         <!-- Background color of buttons in the app -->
         <item name="colorButtonNormal">#1B7BBA</item>
+        <item name="colorPrimaryDark">#1B7BBA</item>
     </style>
 
     <!--Team Name TextViews-->

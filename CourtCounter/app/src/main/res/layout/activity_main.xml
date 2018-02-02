@@ -15,13 +15,13 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="@dimen/marginTop_LinearLayout_1_2"
         android:layout_weight="1"
         android:orientation="horizontal"
         tools:context=".MainActivity">
 
         <LinearLayout
-            android:layout_width="@dimen/layoutWidht_LL_Teams"
+            android:layout_width="@dimen/widht_LinearLayout_2_1"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical"
@@ -52,24 +52,25 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_PointsNames"
                 android:orientation="horizontal"
                 tools:context=".MainActivity">
 
                 <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_marginLeft="30dp"
+                    android:layout_width="@dimen/widht_avatars"
+                    android:layout_height="@dimen/height_avatars"
+                    android:layout_marginLeft="@dimen/marginLeft_avatars"
                     android:src="@drawable/road" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="@dimen/marginLeft_names"
+                    android:layout_marginTop="@dimen/marginTop_names"
                     android:layout_weight="1"
-                    android:fontFamily="@font/roboto_regular"
+                    android:fontFamily="@font/roboto_light"
                     android:text="@string/name_onePoint_road"
-                    android:textSize="21sp" />
+                    android:textSize="@dimen/textSize_names" />
 
             </LinearLayout>
 
@@ -85,30 +86,36 @@
                 android:textColor="@color/colorButtonText"
                 android:textSize="@dimen/fontSize_scoreButton" />
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_dividerHorizontal"
+                android:background="@android:color/darker_gray" />
+
             <!-- Puntos City-->
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_PointsNames"
                 android:layout_marginTop="@dimen/marginTop_buttom"
                 android:orientation="horizontal"
                 tools:context=".MainActivity">
 
                 <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_marginLeft="30dp"
+                    android:layout_width="@dimen/widht_avatars"
+                    android:layout_height="@dimen/height_avatars"
+                    android:layout_marginLeft="@dimen/marginLeft_avatars"
                     android:src="@drawable/city" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="@dimen/marginLeft_names"
+                    android:layout_marginTop="@dimen/marginTop_names"
                     android:layout_weight="1"
-                    android:fontFamily="@font/roboto_regular"
+                    android:fontFamily="@font/roboto_light"
                     android:text="@string/name_twoPoints_city"
-                    android:textSize="21sp" />
+                    android:textSize="@dimen/textSize_names" />
 
             </LinearLayout>
 
@@ -134,31 +141,36 @@
                 android:textColor="@color/colorButtonText"
                 android:textSize="@dimen/fontSize_scoreButton" />
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_dividerHorizontal"
+                android:background="@android:color/darker_gray" />
 
             <!--Puntos Cloister-->
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_PointsNames"
                 android:layout_marginTop="@dimen/marginTop_buttom"
                 android:orientation="horizontal"
                 tools:context=".MainActivity">
 
                 <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_marginLeft="30dp"
+                    android:layout_width="@dimen/widht_avatars"
+                    android:layout_height="@dimen/height_avatars"
+                    android:layout_marginLeft="@dimen/marginLeft_avatars"
                     android:src="@drawable/cloister" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="@dimen/marginLeft_names"
+                    android:layout_marginTop="@dimen/marginTop_names"
                     android:layout_weight="1"
-                    android:fontFamily="@font/roboto_regular"
+                    android:fontFamily="@font/roboto_light"
                     android:text="@string/name_ninePoints_cloister"
-                    android:textSize="21sp" />
+                    android:textSize="@dimen/textSize_names" />
 
             </LinearLayout>
 
@@ -182,10 +194,10 @@
             android:layout_marginTop="@dimen/marginTop_Divider"
             android:background="@android:color/darker_gray" />
 
-<!--Player B-->
+        <!--Player B-->
 
         <LinearLayout
-            android:layout_width="@dimen/layoutWidht_LL_Teams"
+            android:layout_width="@dimen/widht_LinearLayout_2_1"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical"
@@ -217,24 +229,25 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_PointsNames"
                 android:orientation="horizontal"
                 tools:context=".MainActivity">
 
                 <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_marginLeft="30dp"
+                    android:layout_width="@dimen/widht_avatars"
+                    android:layout_height="@dimen/height_avatars"
+                    android:layout_marginLeft="@dimen/marginLeft_avatars"
                     android:src="@drawable/road" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="@dimen/marginLeft_names"
+                    android:layout_marginTop="@dimen/marginTop_names"
                     android:layout_weight="1"
-                    android:fontFamily="@font/roboto_regular"
+                    android:fontFamily="@font/roboto_light"
                     android:text="@string/name_onePoint_road"
-                    android:textSize="21sp" />
+                    android:textSize="@dimen/textSize_names" />
 
             </LinearLayout>
 
@@ -250,30 +263,36 @@
                 android:textColor="@color/colorButtonText"
                 android:textSize="@dimen/fontSize_scoreButton" />
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_dividerHorizontal"
+                android:background="@android:color/darker_gray" />
+
             <!-- Puntos City-->
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_PointsNames"
                 android:layout_marginTop="@dimen/marginTop_buttom"
                 android:orientation="horizontal"
                 tools:context=".MainActivity">
 
                 <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_marginLeft="30dp"
+                    android:layout_width="@dimen/widht_avatars"
+                    android:layout_height="@dimen/height_avatars"
+                    android:layout_marginLeft="@dimen/marginLeft_avatars"
                     android:src="@drawable/city" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="@dimen/marginLeft_names"
+                    android:layout_marginTop="@dimen/marginTop_names"
                     android:layout_weight="1"
-                    android:fontFamily="@font/roboto_regular"
+                    android:fontFamily="@font/roboto_light"
                     android:text="@string/name_twoPoints_city"
-                    android:textSize="21sp" />
+                    android:textSize="@dimen/textSize_names" />
 
             </LinearLayout>
 
@@ -299,31 +318,37 @@
                 android:textColor="@color/colorButtonText"
                 android:textSize="@dimen/fontSize_scoreButton" />
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_dividerHorizontal"
+                android:background="@android:color/darker_gray" />
+
 
             <!--Puntos Cloister-->
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_PointsNames"
                 android:layout_marginTop="@dimen/marginTop_buttom"
                 android:orientation="horizontal"
                 tools:context=".MainActivity">
 
                 <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_marginLeft="30dp"
+                    android:layout_width="@dimen/widht_avatars"
+                    android:layout_height="@dimen/height_avatars"
+                    android:layout_marginLeft="@dimen/marginLeft_avatars"
                     android:src="@drawable/cloister" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="@dimen/marginLeft_names"
+                    android:layout_marginTop="@dimen/marginTop_names"
                     android:layout_weight="1"
-                    android:fontFamily="@font/roboto_regular"
+                    android:fontFamily="@font/roboto_light"
                     android:text="@string/name_ninePoints_cloister"
-                    android:textSize="21sp" />
+                    android:textSize="@dimen/textSize_names" />
 
             </LinearLayout>
 

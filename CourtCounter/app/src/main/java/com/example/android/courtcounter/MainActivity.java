@@ -15,6 +15,24 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+// I tried to set onSaveInstanceState and onRestoreInstanceState but I don't understand some concept yet.
+    https://inthecheesefactory.com/blog/fragment-state-saving-best-practices/en
+
+// @Override
+//    protected void onSaveInstanceState(Bundle outState){
+//        super.onSaveInstanceState(outState);
+//        outState.putInt("scoreTeamA", scoreTeamA);
+//        outState.putInt("scoreTeamB", scoreTeamB);
+//
+//    }
+//
+//    @Override
+//    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+//        super.onRestoreInstanceState(savedInstanceState);
+//        scoreTeamA = savedInstanceState.getInt("scoreTeamA");
+//        scoreTeamB = savedInstanceState.getInt("scoreTeamB");
+//    }
+
     /**
      * This method is called when the reset button is clicked.
      */
@@ -106,6 +124,7 @@ public class MainActivity extends AppCompatActivity {
     public void displayForTeamA(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
         scoreView.setText(String.valueOf(score));
+
     }
 
     /**
@@ -115,4 +134,6 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.team_b_score);
         scoreView.setText(String.valueOf(score));
     }
+
+
 }
