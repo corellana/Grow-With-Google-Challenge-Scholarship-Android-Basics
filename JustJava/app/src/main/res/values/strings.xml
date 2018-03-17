@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Just Java</string>
+
+    <!--TextViews-->
+    <string name="toppings_tittle">Toppings</string>
+    <string name="topping_1">Whipped cream</string>
+    <string name="topping_2">Chocolate</string>
+    <string name="quantity_tittle">Quantity</string>
+    <string name="quantity_text_view">0</string>
+    <string name="order_summary_tittle">Order Summary</string>
+    <string name="order_summary_text_view">$0</string>
+
+    <!--EditViews-->
+
+
+    <!--Buttoms-->
+    <!--I'm not sure how insert DescriptionContent as a string-->
+    <string name="button">Button for order</string>
+    <string name="button_order">Order</string>
+
+    <string name="plus_button">+</string>
+    <string name="minus_button">-</string>
+
+
+
+</resources>
