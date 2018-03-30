@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="background">#F5F5F5</color>
+    <color name="background_question">#FFFFFF</color>
+    <color name="text_button">#FFFFFF</color>
+
+    <!--Button Start-->
+    <color name="button_start_textColor">#FFFFFF</color>
+
+    <!--aun sin uso-->
+    <!--<item name="primary_light">#B3E5FC</item>-->
+    <!--<item name="primary_text">#212121</item>-->
+    <!--<item name="icons">#FFFFFF</item>-->
+    <!--<item name="divider">#BDBDBD</item>-->
+</resources>

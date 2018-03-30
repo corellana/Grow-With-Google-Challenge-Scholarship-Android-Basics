@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+
+
+    <!--Main Activity-->
+    <!--ImageView - Image in the main view-->
+    <string name="image_start_view">A image about Java code in a book</string>\\
+
+    <!--TextView - Text with the description's quiz-->
+    <string name="description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
+
+    <!--Button-->
+    <string name="button_start"> button for start the questions</string>
+    <string name="start_button">Start Quiz</string>
+
+    <string name="button_next_question">Next question</string>
+
+
+    <!--Question1 Activity-->
+    <string name="question_1">Here will be the content for the question questions 1? </string>
+    <string name="q1_option_1">Opcion 1 correcta 1/2</string>
+    <string name="q1_option_2">Opcion 2 correcta 2/2</string>
+    <string name="q1_option_3">Opcion 3 y seguimos probando</string>
+
+    <string name="message_two_correct">You need to choose two options</string>
+
+    <!--Question2 Activity-->
+    <string name="question_2">Here will be the content for the question questions 2? </string>
+    <string name="q2_option_1">Opcion Correcta</string>
+    <string name="q2_option_2">Opcion 2 para probar</string>
+    <string name="message_one_correct">You need to choose one option</string>
+
+    <!--Question3 Activity-->
+    <string name="question_3">Here will be the content for the question questions 3? </string>
+    <string name="hint_question">Your answer here</string>
+
+    <!--Question4 Activity-->
+    <string name="question_4">Here will be the content for the question questions 4? </string>
+    <string name="q4_option_1">Opcion 1 temporal</string>
+    <string name="q4_option_2">Opcion 2</string>
+    <string name="q4_option_3">Opcion 3 Correcta</string>
+
+    <!--Question5 Activity-->
+    <string name="question_5">Here will be the content for the question questions 5? </string>
+    <string name="q5_option_1">Correcta</string>
+    <string name="q5_option_2">Opcion 2 para probar</string>
+    <string name="q5_option_3">Correcta</string>
+
+
+    <!--JAVA-->
+
+    <string name="toast_answer3">Correct!</string>
+
+</resources>
