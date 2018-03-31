@@ -2,6 +2,7 @@ package com.example.carito.quizapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Html;
 import android.widget.TextView;
 
 public class ScoreActivity extends AppCompatActivity {
@@ -13,26 +14,12 @@ public class ScoreActivity extends AppCompatActivity {
 
         String message = CreateScoreSummary();
         displayMessage(message);
-
     }
 
-//    private String CreateScoreSummary() {
-//
-//        int points = 0;
-//
-//        Bundle extras = getIntent().getExtras();
-//        if (extras != null) {
-//            points = extras.getInt("total_points");
-//        }
-//        String pointsMessage = "Your score is " + points + " of 10 total points.";
-//
-//        if(points == 10){
-//            String pm2 = "You did a great job! Congrats!";
-//        }
-//
-//        return pointsMessage;
-
-        // idea 1
+    /**
+     * Generates the result of the quiz
+     * @return message with final points.
+     */
 
     private String CreateScoreSummary() {
 
@@ -42,18 +29,23 @@ public class ScoreActivity extends AppCompatActivity {
         if (extras != null) {
             points = extras.getInt("total_points");
         }
-        String pointsMessage = "Your score is " + points + " of 10 total points.";
+        String pointsMessage = "Your score is " + "<b>" + points +  "</b>" + " of 10 total points.";
 
         if(points == 10){
-            pointsMessage += "\n" + "You did a great job! Congrats!";
+            pointsMessage += "<br/><br/>" + "All those hours of study have been worth it! Congrats!";
+        }else{
+            pointsMessage += "<br/><br/>" + "Practice a little more and you will see how these questions become very easy! You know you can do it!";
         }
-        
+
         return pointsMessage;
     }
 
+    /**
+     * Show the result of the quiz
+     */
     private void displayMessage(String message) {
         TextView messageScore = findViewById(R.id.message_score);
-        messageScore.setText(message);
+        messageScore.setText(Html.fromHtml(message));
 
     }
 

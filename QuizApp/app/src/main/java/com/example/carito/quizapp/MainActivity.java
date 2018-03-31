@@ -14,6 +14,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    /**
+     * This method is called when the Start Quiz button is clicked.
+     * @param view button Start Quiz
+     */
+
     public void startQuiz(View view) {
         Intent startNewtActivity = new Intent(this, Question1.class);
         startActivity(startNewtActivity);

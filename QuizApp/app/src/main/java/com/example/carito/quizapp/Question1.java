@@ -15,6 +15,10 @@ public class Question1 extends AppCompatActivity {
         setContentView(R.layout.activity_question1);
     }
 
+    /**
+     * This method is called when the next question button is clicked.
+     */
+
     public void nextQuestion(View view) {
 
         int points = calculatePoints();
@@ -29,25 +33,30 @@ public class Question1 extends AppCompatActivity {
         }
     }
 
+    /**
+     * Calculate the points of the question
+     */
+
     private int calculatePoints() {
-        //Variable que tiene la vista
         CheckBox checkbox1 = findViewById(R.id.checkbox_1);
         CheckBox checkbox2 = findViewById(R.id.checkbox_2);
         CheckBox checkbox3 = findViewById(R.id.checkbox_3);
 
-        //Variable de puntos ganados
         int questionPoints = 0;
 
-        //Condicion para calcular puntaje
+
         if (checkbox1.isChecked() && checkbox2.isChecked() && !checkbox3.isChecked()) {
             questionPoints = 2;
         } else {
             questionPoints = 0;
         }
 
-        //Devolver puntaje obtenido
         return questionPoints;
     }
+
+    /**
+    * validate that the answer is completed
+     */
 
     private boolean validateAnswer() {
         CheckBox checkbox1 = findViewById(R.id.checkbox_1);
@@ -75,4 +84,3 @@ public class Question1 extends AppCompatActivity {
         }
     }
 }
-

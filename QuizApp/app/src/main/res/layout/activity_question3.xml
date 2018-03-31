@@ -20,14 +20,17 @@
             android:padding="@dimen/padding_question"
             android:text="@string/question_3"
             android:textColor="@color/primaryText"
-            android:textSize="@dimen/title_size" />
+            android:textSize="@dimen/title_size"
+            android:fontFamily="@font/robotolight"/>
 
         <EditText
             android:id="@+id/answer_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/hint_question"
-            android:inputType="textCapSentences" />
+            android:inputType="textCapSentences"
+            android:fontFamily="@font/robotolight"
+            android:textSize="@dimen/body_1_size"/>
 
         <Button
             android:id="@+id/button_next_question"

@@ -15,6 +15,10 @@ public class Question5 extends AppCompatActivity {
         setContentView(R.layout.activity_question5);
     }
 
+    /**
+     * This method is called when the next question button is clicked.
+     */
+
     public void nextQuestion(View view) {
 
         int points = calculatePoints();
@@ -33,6 +37,10 @@ public class Question5 extends AppCompatActivity {
             startActivity(startNextQuestion);
         }
     }
+
+    /**
+     * Calculate the points of the question
+     */
 
     private int calculatePoints() {
         //Variable que tiene la vista
@@ -55,6 +63,10 @@ public class Question5 extends AppCompatActivity {
         return questionPoints;
 
     }
+
+    /**
+     * validate that the answer is completed
+     */
 
     private boolean validateAnswer() {
         CheckBox checkbox1 = findViewById(R.id.checkbox_1);

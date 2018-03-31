@@ -21,7 +21,8 @@
             android:padding="@dimen/padding_question"
             android:text="@string/question_5"
             android:textColor="@color/primaryText"
-            android:textSize="@dimen/title_size" />
+            android:textSize="@dimen/title_size"
+            android:fontFamily="@font/robotolight"/>
 
 
         <LinearLayout
@@ -40,7 +41,9 @@
                 android:layout_marginBottom="@dimen/margin_bottom_options"
                 android:text="@string/q5_option_1"
                 android:textColor="@color/secondary_text"
-                android:textSize="@dimen/body_1_size" />
+                android:textSize="@dimen/body_1_size"
+                android:fontFamily="@font/robotolight"/>
+
         </LinearLayout>
 
         <LinearLayout
@@ -59,7 +62,8 @@
                 android:layout_marginBottom="@dimen/margin_bottom_options"
                 android:text="@string/q5_option_2"
                 android:textColor="@color/secondary_text"
-                android:textSize="@dimen/body_1_size" />
+                android:textSize="@dimen/body_1_size"
+                android:fontFamily="@font/robotolight"/>
 
         </LinearLayout>
 
@@ -79,7 +83,8 @@
                 android:layout_marginBottom="@dimen/margin_bottom_options"
                 android:text="@string/q5_option_3"
                 android:textColor="@color/secondary_text"
-                android:textSize="@dimen/body_1_size" />
+                android:textSize="@dimen/body_1_size"
+                android:fontFamily="@font/robotolight"/>
 
         </LinearLayout>
 

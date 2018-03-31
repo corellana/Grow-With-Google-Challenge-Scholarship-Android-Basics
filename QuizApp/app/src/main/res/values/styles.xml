@@ -2,22 +2,12 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#03A9F4</item>
         <item name="colorPrimaryDark">#0288D1</item>
         <item name="colorAccent">#FF4081</item>
 
-
-        <!-- Questions Activities-->
-
-
-
-        <!--aun sin uso-->
-        <!--<item name="primary_light">#B3E5FC</item>-->
-        <!--<item name="primary_text">#212121</item>-->
-        <!--<item name="secondary_text">#757575</item>-->
-        <!--<item name="icons">#FFFFFF</item>-->
-        <!--<item name="divider">#BDBDBD</item>-->
     </style>
 
 </resources>

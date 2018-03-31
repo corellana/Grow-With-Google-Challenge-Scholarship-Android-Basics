@@ -16,6 +16,10 @@ public class Question3 extends AppCompatActivity {
         setContentView(R.layout.activity_question3);
     }
 
+    /**
+     * This method is called when the next question button is clicked.
+     */
+
     public void nextQuestion(View view) {
 
         int points = calculatePoints();
@@ -35,13 +39,17 @@ public class Question3 extends AppCompatActivity {
         }
     }
 
+    /**
+     * Calculate the points of the question
+     */
+
     private int calculatePoints() {
         //Variable que tiene la vista
         EditText answerEditText = findViewById(R.id.answer_3);
         //Variable que tienes la respuesta en esa vista
         String answer = answerEditText.getText().toString();
         //Variable con la respuesta correcta
-        String correctAnswer = "Correcta";
+        String correctAnswer = "LogCat";
         //Variable de puntos ganados
         int questionPoints = 0;
 
@@ -57,6 +65,10 @@ public class Question3 extends AppCompatActivity {
         return questionPoints;
 
     }
+
+    /**
+     * validate that the answer is completed
+     */
 
     private boolean validateAnswer() {
         EditText answerEditText = findViewById(R.id.answer_3);

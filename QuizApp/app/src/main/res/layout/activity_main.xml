@@ -25,7 +25,8 @@
             android:layout_marginTop="@dimen/margin_top_messages"
             android:text="@string/description"
             android:textColor="@color/primaryText"
-            android:textSize="@dimen/text_size_messages" />
+            android:textSize="@dimen/text_size_messages"
+            android:fontFamily="@font/robotolight"/>
 
         <Button
             android:id="@+id/button_start"

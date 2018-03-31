@@ -25,7 +25,8 @@
             android:layout_marginTop="@dimen/margin_top_messages"
             android:text=""
             android:textSize="@dimen/text_size_messages"
-            android:textColor="@color/primaryText" />
+            android:textColor="@color/primaryText"
+            android:fontFamily="@font/robotolight"/>
 
     </LinearLayout>
 

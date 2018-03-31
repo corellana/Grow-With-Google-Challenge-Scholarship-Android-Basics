@@ -4,10 +4,10 @@
 
     <!--Main Activity-->
     <!--ImageView - Image in the main view-->
-    <string name="image_start_view">A image about Java code in a book</string>\\
+    <string name="image_start_view">A image about Java code in a book</string>
 
     <!--TextView - Text with the description's quiz-->
-    <string name="description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
+    <string name="description">It is time to practice what we learned. \n\n10 total points in 5 questions. Let\'s test our basic knowledge about Android application development.</string>
 
     <!--Button-->
     <string name="button_start"> button for start the questions</string>
@@ -17,34 +17,35 @@
 
 
     <!--Question1 Activity-->
-    <string name="question_1">Here will be the content for the question questions 1? </string>
-    <string name="q1_option_1">Opcion 1 correcta 1/2</string>
-    <string name="q1_option_2">Opcion 2 correcta 2/2</string>
-    <string name="q1_option_3">Opcion 3 y seguimos probando</string>
+    <string name="question_1">A layout defines the structure for a user interface in your app, such as in an activity.\n\nAll elements in the layout are built using a hierarchy of:</string>
+    <string name="q1_option_1">View</string>
+    <string name="q1_option_2">View groups</string>
+    <string name="q1_option_3">Parameters</string>
 
     <string name="message_two_correct">You need to choose two options</string>
 
     <!--Question2 Activity-->
-    <string name="question_2">Here will be the content for the question questions 2? </string>
-    <string name="q2_option_1">Opcion Correcta</string>
-    <string name="q2_option_2">Opcion 2 para probar</string>
+    <string name="question_2">An Intent is a messaging object you can use to request an action from another:</string>
+    <string name="q2_option_1">App component</string>
+    <string name="q2_option_2">View </string>
+
     <string name="message_one_correct">You need to choose one option</string>
 
     <!--Question3 Activity-->
-    <string name="question_3">Here will be the content for the question questions 3? </string>
+    <string name="question_3">To access to the log while the app is running, you can use:</string>
     <string name="hint_question">Your answer here</string>
 
     <!--Question4 Activity-->
-    <string name="question_4">Here will be the content for the question questions 4? </string>
-    <string name="q4_option_1">Opcion 1 temporal</string>
-    <string name="q4_option_2">Opcion 2</string>
-    <string name="q4_option_3">Opcion 3 Correcta</string>
+    <string name="question_4">The list of variables in a method declaration are:</string>
+    <string name="q4_option_1">strings</string>
+    <string name="q4_option_2">values</string>
+    <string name="q4_option_3">parameters</string>
 
     <!--Question5 Activity-->
-    <string name="question_5">Here will be the content for the question questions 5? </string>
-    <string name="q5_option_1">Correcta</string>
-    <string name="q5_option_2">Opcion 2 para probar</string>
-    <string name="q5_option_3">Correcta</string>
+    <string name="question_5">There are two ways you can access a resource</string>
+    <string name="q5_option_1">In XML</string>
+    <string name="q5_option_2">In layouts</string>
+    <string name="q5_option_3">In code</string>
 
 
     <!--JAVA-->

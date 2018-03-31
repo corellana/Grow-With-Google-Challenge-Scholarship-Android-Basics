@@ -16,6 +16,10 @@ public class Question4 extends AppCompatActivity {
         setContentView(R.layout.activity_question4);
     }
 
+    /**
+     * This method is called when the next question button is clicked.
+     */
+
     public void nextQuestion(View view) {
 
         int points = calculatePoints();
@@ -35,6 +39,10 @@ public class Question4 extends AppCompatActivity {
         }
     }
 
+    /**
+     * Calculate the points of the question
+     */
+
     private int calculatePoints() {
         //Variable que tiene la vista, no necesito declarar la el boton 2
         RadioButton radioButton3 = findViewById(R.id.radio_button_3);
@@ -51,6 +59,10 @@ public class Question4 extends AppCompatActivity {
         //Devolver puntaje obtenido
         return questionPoints;
     }
+
+    /**
+     * validate that the answer is completed
+     */
 
     private boolean validateAnswer() {
         RadioButton radioButton1 = findViewById(R.id.radio_button_1);
