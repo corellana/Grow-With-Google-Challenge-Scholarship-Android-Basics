@@ -8,7 +8,7 @@
         android:layout_height="@dimen/layoutHeight_logo"
         android:layout_alignParentTop="true"
         android:layout_gravity="center"
-        android:layout_margin="15dp"
+        android:layout_margin="@dimen/layoutMargin_logo"
         android:contentDescription="@string/carcassonne_logo"
         android:src="@drawable/carcassonne_logo" />
 
@@ -63,10 +63,10 @@
                     android:src="@drawable/road" />
 
                 <TextView
-                    android:layout_width="0dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/marginLeft_names"
-                    android:layout_marginTop="@dimen/marginTop_names"
+
                     android:layout_weight="1"
                     android:fontFamily="@font/roboto_light"
                     android:text="@string/name_onePoint_road"
@@ -76,8 +76,8 @@
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/marginBottom_points"
+                android:layout_height="@dimen/layout_height_button_small_points"
+                android:layout_marginBottom="@dimen/marginBottom_button_points"
                 android:layout_marginLeft="@dimen/marginLeft"
                 android:layout_marginRight="@dimen/marginRight"
                 android:layout_weight="1"
@@ -108,10 +108,9 @@
                     android:src="@drawable/city" />
 
                 <TextView
-                    android:layout_width="0dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/marginLeft_names"
-                    android:layout_marginTop="@dimen/marginTop_names"
                     android:layout_weight="1"
                     android:fontFamily="@font/roboto_light"
                     android:text="@string/name_twoPoints_city"
@@ -121,8 +120,8 @@
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/marginBottom_points"
+                android:layout_height="@dimen/layout_height_button_big_points"
+                android:layout_marginBottom="@dimen/marginBottom_button_points"
                 android:layout_marginLeft="@dimen/marginLeft"
                 android:layout_marginRight="@dimen/marginRight"
                 android:onClick="AddTwoPointsTeamA_tile"
@@ -132,8 +131,8 @@
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/marginBottom_points"
+                android:layout_height="@dimen/layout_height_button_big_points"
+                android:layout_marginBottom="@dimen/marginBottom_button_points"
                 android:layout_marginLeft="@dimen/marginLeft"
                 android:layout_marginRight="@dimen/marginRight"
                 android:onClick="AddTwoPointsTeamA_pennant"
@@ -163,10 +162,9 @@
                     android:src="@drawable/cloister" />
 
                 <TextView
-                    android:layout_width="0dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/marginLeft_names"
-                    android:layout_marginTop="@dimen/marginTop_names"
                     android:layout_weight="1"
                     android:fontFamily="@font/roboto_light"
                     android:text="@string/name_ninePoints_cloister"
@@ -176,8 +174,8 @@
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/marginBottom_points"
+                android:layout_height="@dimen/layout_height_button_small_points"
+                android:layout_marginBottom="@dimen/marginBottom_button_points"
                 android:layout_marginLeft="@dimen/marginLeft"
                 android:layout_marginRight="@dimen/marginRight"
                 android:layout_weight="1"
@@ -240,10 +238,9 @@
                     android:src="@drawable/road" />
 
                 <TextView
-                    android:layout_width="0dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/marginLeft_names"
-                    android:layout_marginTop="@dimen/marginTop_names"
                     android:layout_weight="1"
                     android:fontFamily="@font/roboto_light"
                     android:text="@string/name_onePoint_road"
@@ -253,8 +250,8 @@
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/marginBottom_points"
+                android:layout_height="@dimen/layout_height_button_small_points"
+                android:layout_marginBottom="@dimen/marginBottom_button_points"
                 android:layout_marginLeft="@dimen/marginLeft"
                 android:layout_marginRight="@dimen/marginRight"
                 android:layout_weight="1"
@@ -285,10 +282,9 @@
                     android:src="@drawable/city" />
 
                 <TextView
-                    android:layout_width="0dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/marginLeft_names"
-                    android:layout_marginTop="@dimen/marginTop_names"
                     android:layout_weight="1"
                     android:fontFamily="@font/roboto_light"
                     android:text="@string/name_twoPoints_city"
@@ -298,8 +294,8 @@
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/marginBottom_points"
+                android:layout_height="@dimen/layout_height_button_big_points"
+                android:layout_marginBottom="@dimen/marginBottom_button_points"
                 android:layout_marginLeft="@dimen/marginLeft"
                 android:layout_marginRight="@dimen/marginRight"
                 android:onClick="AddTwoPointsTeamB_tile"
@@ -309,8 +305,8 @@
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/marginBottom_points"
+                android:layout_height="@dimen/layout_height_button_big_points"
+                android:layout_marginBottom="@dimen/marginBottom_button_points"
                 android:layout_marginLeft="@dimen/marginLeft"
                 android:layout_marginRight="@dimen/marginRight"
                 android:onClick="AddTwoPointsTeamB_pennant"
@@ -341,10 +337,10 @@
                     android:src="@drawable/cloister" />
 
                 <TextView
-                    android:layout_width="0dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/marginLeft_names"
-                    android:layout_marginTop="@dimen/marginTop_names"
+
                     android:layout_weight="1"
                     android:fontFamily="@font/roboto_light"
                     android:text="@string/name_ninePoints_cloister"
@@ -354,8 +350,8 @@
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/marginBottom_points"
+                android:layout_height="@dimen/layout_height_button_small_points"
+                android:layout_marginBottom="@dimen/marginBottom_button_points"
                 android:layout_marginLeft="@dimen/marginLeft"
                 android:layout_marginRight="@dimen/marginRight"
                 android:layout_weight="1"
@@ -366,9 +362,7 @@
 
         </LinearLayout>
 
-
     </LinearLayout>
-
 
     <Button
         android:layout_width="wrap_content"

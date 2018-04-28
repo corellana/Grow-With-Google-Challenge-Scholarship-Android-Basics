@@ -3,7 +3,7 @@
 
     <!--ImageView Logo-->
     <dimen name="layoutHeight_logo">65dp</dimen>
-    <dimen name="layoutMargin_logo">15dp</dimen>
+    <dimen name="layoutMargin_logo">8dp</dimen>
 
     <!--LinearLayout 1_2-->
     <dimen name="marginTop_LinearLayout_1_2">80dp</dimen>
@@ -12,21 +12,23 @@
     <!--LinearLayout 2_1-->
     <dimen name="widht_LinearLayout_2_1">0dp</dimen>
     <dimen name="fontSizeTittles">24sp</dimen>
-    <dimen name="fontSizeScore">64sp</dimen>
 
     <!--Team Name Views-->
     <dimen name="paddingTittles">16dp</dimen>
 
-    <!--Score Team Views-->
-    <dimen name="marginBottom">20dp</dimen>
+    <!--Linear Layout 2 - TextView 2 - Score Team Views-->
+    <dimen name="marginBottom">16dp</dimen>
+    <dimen name="fontSizeScore">34sp</dimen>
 
     <!--Buttons Point Views-->
+    <dimen name="layout_height_button_small_points">48dp</dimen>
+    <dimen name="layout_height_button_big_points">48dp</dimen>
     <dimen name="marginLeft_PointsNames">15dp</dimen>
     <dimen name="fontSize_scoreButton">12sp</dimen>
-    <dimen name="marginTop_buttom">15dp</dimen>
+    <dimen name="marginTop_buttom">8dp</dimen>
     <dimen name="marginRight">24dp</dimen>
     <dimen name="marginLeft">24dp</dimen>
-    <dimen name="marginBottom_points">8dp</dimen>
+    <dimen name="marginBottom_button_points">4dp</dimen>
 
     <!--Divider Views-->
     <dimen name="layoutWidht_dividerView">1dp</dimen>
@@ -34,14 +36,13 @@
     <dimen name="height_dividerHorizontal">1dp</dimen>
 
     <!--Teams Points_4-->
-    <dimen name="widht_avatars">40dp</dimen>
-    <dimen name="height_avatars">40dp</dimen>
+    <dimen name="widht_avatars">20dp</dimen>
+    <dimen name="height_avatars">20dp</dimen>
     <dimen name="marginLeft_avatars">30dp</dimen>
     <dimen name="marginLeft_names">15dp</dimen>
-    <dimen name="marginTop_names">5dp</dimen>
-    <dimen name="textSize_names">21sp</dimen>
+    <dimen name="textSize_names">16sp</dimen>
 
     <!--Reset Button-->
-    <dimen name="marginBotton_reset">32dp</dimen>
+    <dimen name="marginBotton_reset">16dp</dimen>
 
 </resources>

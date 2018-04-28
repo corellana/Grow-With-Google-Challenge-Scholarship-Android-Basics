@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 // I tried to set onSaveInstanceState and onRestoreInstanceState but I don't understand some concept yet.
-    https://inthecheesefactory.com/blog/fragment-state-saving-best-practices/en
+//    https://inthecheesefactory.com/blog/fragment-state-saving-best-practices/en
 
 // @Override
 //    protected void onSaveInstanceState(Bundle outState){
@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
      * Displays the given score for Team A.
      */
     public void displayForTeamA(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.team_a_score);
+        TextView scoreView = (TextView) findViewById(R.id.team_a_score); // I need to put (TextView)?
         scoreView.setText(String.valueOf(score));
 
     }
