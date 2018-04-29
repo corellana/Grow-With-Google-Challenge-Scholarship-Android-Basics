@@ -96,7 +96,7 @@
             android:layout_marginTop="@dimen/margin_top_button"
             android:background="@color/colorPrimaryDark"
             android:onClick="nextQuestion"
-            android:text="@string/button_next_question"
+            android:text="@string/button_see_score"
             android:textColor="@color/text_button" />
 
     </LinearLayout>

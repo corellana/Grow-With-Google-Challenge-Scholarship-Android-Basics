@@ -14,6 +14,7 @@
     <string name="start_button">Start Quiz</string>
 
     <string name="button_next_question">Next question</string>
+    <string name="button_see_score">See your score</string>
 
 
     <!--Question1 Activity-->
@@ -47,6 +48,9 @@
     <string name="q5_option_2">In layouts</string>
     <string name="q5_option_3">In code</string>
 
+    <!--Score Activity-->
+    <string name="message_total_points_user">"Your score is "</string>
+    <string name="message_total_point_quiz">" of 10 total points."</string>
 
     <!--JAVA-->
 

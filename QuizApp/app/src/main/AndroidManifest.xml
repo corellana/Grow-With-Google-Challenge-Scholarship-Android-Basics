@@ -16,12 +16,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Question1" />
-        <activity android:name=".Question2" />
-        <activity android:name=".ScoreActivity" />
-        <activity android:name=".Question3" />
-        <activity android:name=".Question4" />
-        <activity android:name=".Question5"></activity>
+        <activity
+            android:name=".Question1"
+            android:label="Question One"
+            />
+        <activity
+            android:name=".Question2"
+            android:label="Question Two"/>
+
+        <activity
+            android:name=".ScoreActivity"
+            android:label="Your final Score"
+            />
+        <activity
+            android:name=".Question3"
+            android:label="Question Three"/>
+        <activity
+            android:name=".Question4"
+            android:label="Question Four"/>
+        <activity
+            android:name=".Question5"
+            android:label="Question Five">
+
+        </activity>
+
     </application>
 
 </manifest>

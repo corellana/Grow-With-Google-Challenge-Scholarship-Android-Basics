@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class ScoreActivity extends AppCompatActivity {
 
@@ -30,6 +31,7 @@ public class ScoreActivity extends AppCompatActivity {
             points = extras.getInt("total_points");
         }
         String pointsMessage = "Your score is " + "<b>" + points +  "</b>" + " of 10 total points.";
+        Toast.makeText(this, getString(R.string.message_total_points_user) + points + getString(R.string.message_total_point_quiz) , Toast.LENGTH_LONG).show();
 
         if(points == 10){
             pointsMessage += "<br/><br/>" + "All those hours of study have been worth it! Congrats!";
